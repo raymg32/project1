@@ -1,0 +1,29 @@
+void setup(){
+  size( 800, 800);
+  smooth();
+  frameRate(30);
+}
+
+void draw(){
+  scene();
+  monster();
+ // hero();
+  //gold();
+  //messages();
+}
+
+//SCENE
+void scene(){
+  background( 49, 204, 245);  //light blue sky
+  
+}
+
+void monster(){
+  rectMode(CENTER);
+  fill(0);
+  rect( 100, 100, 80, 30); // body
+  fill( 245, 49, 49);
+  rect( 110, 130, 10, 30);
+}
+
+  
